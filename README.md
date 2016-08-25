@@ -1,9 +1,15 @@
 # loginsdk
 第三方登陆sdk
 
-    
-    private $app;
+# composer 
+"require":{
+    "olcms2016/loginsdk": "*@dev"
+}
 
+# code demo
+
+    private $app;
+    
     public function __construct()
     {
         parent::__construct();
@@ -17,7 +23,7 @@
         ];
         $this->app = new \olcms\Foundation\Application($config);
     }
-
+    
     public function index()
     {
         $this->app->qq->login();
@@ -28,5 +34,5 @@
         $user = $this->app->qq->getUserinfo(I(''));
         dump($user);
     }
+        
     
-
