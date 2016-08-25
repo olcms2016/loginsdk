@@ -1,7 +1,7 @@
 {
     "name": "olcms2016/loginsdk",
     "description": "a qq login demo sdk",
-	"minimum-stability": "dev",
+	"minimum-stability": "stable",
     "license": "MIT",
     "keywords": ["qq qqsdk"],
     "version": "0.0.1",
