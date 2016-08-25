@@ -1,10 +1,6 @@
 # loginsdk
 第三方登陆sdk
-<?php
-namespace Home\Controller;
-use Think\Controller;
-class IndexController extends Controller 
-{
+
     
     private $app;
 
@@ -33,4 +29,4 @@ class IndexController extends Controller
         dump($user);
     }
     
-}
+
